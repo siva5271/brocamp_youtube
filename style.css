@@ -1,0 +1,187 @@
+.dishesImage {
+  height: 75vh;
+  width: 100%;
+  object-fit: cover;
+
+  z-index: 0;
+}
+
+.zomatoLogo {
+  z-index: 1;
+  height: 200;
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+.topImage {
+  display: block;
+  position: relative;
+}
+
+.restElements {
+  padding-top: 4rem;
+  row-gap: 10px;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.zomatoLogo {
+  height: 60px;
+}
+
+.topHeading {
+  font-family: Okra, Helvetica, sans-serif;
+  font-size: 2.4em;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+.headerOptions {
+  font-family: Okra, Helvetica, sans-serif;
+  position: absolute;
+  inset: 0;
+  font-size: 1.2rem;
+  top: 10;
+  line-height: 1.5;
+  text-align: right;
+  font-weight: 50;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 0.6rem;
+  vertical-align: middle;
+  padding-right: 21rem;
+  padding-top: 1rem;
+}
+
+.headerOptions p {
+  display: inline;
+  padding-left: 15px;
+}
+
+.textUnderImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picUnderImage {
+  height: 40px;
+  padding: 7px;
+}
+
+.headingUnderImage,
+.secondHeadingUnderImage {
+  font-size: 2.5rem;
+  font-family: Okra, Helvetica, sans-serif;
+}
+
+.secondHeadingUnderImage {
+  font-weight: 600;
+}
+
+.descriptionUnderImage {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: grey;
+}
+
+.restaurantsLocationWise {
+  padding: 75px;
+  padding-left: 200px;
+  padding-right: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 20px;
+}
+
+.locationCard {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.location {
+  padding-left: 15px;
+  font-size: 1.4rem;
+  font-weight: 200;
+  font-family: Okra, Helvetica, sans-serif;
+}
+
+.location,
+.rightArrowIconButton {
+  display: inline;
+}
+
+.rightArrowIconButton {
+  padding-right: 15px;
+}
+
+.countriesAvailable {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  display: grid;
+}
+
+.countriesList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 20px;
+}
+
+.footerEnclosing {
+  height: 60vh;
+  background-color: rgba(244, 244, 236, 0.944);
+  width: 100vw;
+}
+
+.elementsOuterCover {
+  padding-top: 50px;
+  padding-left: 200px;padding-right: 200px;
+  display: flex;
+  grid-template-columns: 1fr;
+  row-gap: 15px;
+  flex-direction: column;
+}
+
+.zomatoFooterLogo{
+  height: 25px;
+}
+
+.buttonContainer{
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100px;
+  display: flex;
+  border: 1px solid;
+  border-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.countryName{
+  
+  font-family: Okra, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.footerTopRow{
+  display: flex;justify-content: space-between;
+}
+
+.buttonGroup{display: flex;}
